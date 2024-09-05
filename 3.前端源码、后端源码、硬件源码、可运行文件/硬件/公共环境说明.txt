@@ -1,0 +1,22 @@
+STA（接入无线网络）:
+1. 配置main.h中的SSID和PASSWORD
+2. AP名，密码可以自行调整
+3. 调整示例为：
+#define SSID 		    "abcd"                       	// WIFI名称
+#define PASSWORD "password"           	// WIFI密码
+
+MQTT（接入mqtt服务器）：
+1. 配置mqtt_task.c中Variables definitions
+2. 服务器地址，端口号，可以自行调整，客户端id为根据设备号自动生成
+3. 调整示例为：
+#define HOST_ADDR 			"120.46.211.213"		// MQTT服务器的IP地址
+#define HOST_PORT 			1883				// MQTT服务器的端口号
+
+DeviceId（设备号，用于辨认物理设备）：
+1. 配置main.c中Variables definitions
+2.设备ID，设施ID，设施类型，可以自行调整
+3. 调整示例为：
+#define DEVICE_ID                       		1           // 设备ID
+#define FACILITY_ID                     		2           // 设施ID
+#define FACILITY_TYPE                   	0           // 设施类型
+

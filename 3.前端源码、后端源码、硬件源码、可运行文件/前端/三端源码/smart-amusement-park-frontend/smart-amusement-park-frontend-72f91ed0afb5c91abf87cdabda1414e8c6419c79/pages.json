@@ -1,0 +1,151 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "游乐园智慧助手",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#20b0f2",
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+
+		{
+			"path": "pages/recommendroute/recommendroute",
+			"style": {
+				"navigationBarTitleText": "路线详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/facilitylist/facilitylist",
+			"style": {
+				"navigationBarTitleText": "设施列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "地图",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f8a094",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/facilitydetail/facilitydetail",
+			"style": {
+				"navigationBarTitleText": "设施详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myinfo/myinfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/infochange/infochange",
+			"style": {
+				"navigationBarTitleText": "个人信息修改",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/subscribe/subscribe",
+			"style": {
+				"navigationBarTitleText": "我的订阅",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/bestroute/bestroute",
+			"style": {
+				"navigationBarTitleText": "智能规划路线",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/markrecords/markrecords",
+			"style": {
+				"navigationBarTitleText": "我的打卡",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/infochange/phonechange/phonechange",
+			"style" : 
+			{
+				"navigationBarTitleText" : "修改手机号",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/infochange/passwdchange/passwdchange",
+			"style" : 
+			{
+				"navigationBarTitleText" : "修改密码",
+				"enablePullDownRefresh" : false
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#20b0f2",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/tabbar/index.png",
+			"selectedIconPath": "static/tabbar/index_selected.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/map/map",
+			"iconPath": "static/tabbar/map.png",
+			"selectedIconPath": "static/tabbar/map_selected.png",
+			"text": "地图"
+		}, {
+			"pagePath": "pages/myinfo/myinfo",
+			"iconPath": "static/tabbar/myinfo.png",
+			"selectedIconPath": "static/tabbar/myinfo_selected.png",
+			"text": "我的"
+		}]
+
+	}
+}
